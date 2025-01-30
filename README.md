@@ -1,4 +1,4 @@
-# Modular Architecture for informatics in Python - V1
+# Modular Architecture for informatics in Python - v1
 
 ## Overview
 
@@ -22,6 +22,36 @@ pip install -r requirements.txt
 ## Directory Structure
 
 ```
+.
+├── README.md
+├── __init__.py
+├── app
+│   ├── __init__.py
+│   ├── main.py
+│   └── tests
+│       ├── __init__.py
+│       └── test_data.json
+├── controllers
+│   ├── __init__.py
+│   └── informatic_controller.py
+├── pyproject.toml
+├── repositories
+│   ├── __init__.py
+│   └── informatic_repository.py
+├── requirements.txt
+├── routers
+│   ├── __init__.py
+│   └── informatic_router.py
+├── services
+│   ├── __init__.py
+│   └── informatic_service.py
+└── uv.lock
+```
+
+## Dependencies
+
+```
+```
 modular-arch-python v0.1.0
 ├── fastapi v0.115.7
 │   ├── pydantic v2.10.6
@@ -40,7 +70,7 @@ modular-arch-python v0.1.0
     └── h11 v0.14.0
 
 ```
-
+```
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
