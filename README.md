@@ -51,7 +51,6 @@ pip install -r requirements.txt
 ## Dependencies
 
 ```
-```
 modular-arch-python v0.1.0
 ├── fastapi v0.115.7
 │   ├── pydantic v2.10.6
@@ -68,9 +67,8 @@ modular-arch-python v0.1.0
 └── uvicorn v0.34.0
     ├── click v8.1.8
     └── h11 v0.14.0
+```
 
-```
-```
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
