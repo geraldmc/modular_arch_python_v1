@@ -1,4 +1,4 @@
-# Modular Architecture for informatics in Python - v1
+# Modular Architecture for Informatics in Python - v1
 
 ## Overview
 
