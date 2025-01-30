@@ -1,0 +1,27 @@
+{
+  "resource": "foo",
+  "description": "bar",
+  "has_api": false,
+  "requires_key": false
+}
+
+{
+  "resource": "bar",
+  "description": "foo",
+  "has_api": false,
+  "requires_key": false
+}
+
+{
+  "resource": "foo",
+  "description": "foo",
+  "has_api": false,
+  "requires_key": false
+}
+
+{
+  "resource": "bar",
+  "description": "bar",
+  "has_api": false,
+  "requires_key": false
+}

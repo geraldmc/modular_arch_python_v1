@@ -1,0 +1,10 @@
+[project]
+name = "modular-arch-python-v1"
+version = "0.1.0"
+description = "Experiments with modular architectures for (bio)informatics APIs."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.7",
+    "uvicorn>=0.34.0",
+]
